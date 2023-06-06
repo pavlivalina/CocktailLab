@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" /><title>Drink Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
+    
+
+  </head>
+   <header class="welcome-header">
+    <img src="logo.png" class = "logo">
+      <div class="main-header">
+        <div class="header-text">
+      <a href="index.html" class="main-button">Main</a>
+      <a href="#footer-distributed" class="about-us-button" >About Us</a>
+      <a href="#footer-distributed" class="contacts-button">Contacts</a>
+    </div>  
+      <div class="search">
+        <div class="search-container">
+          <input type="text" name="search" placeholder="Search..." class="search-input">
+          <a href="#" class="search-btn">
+                  <i class="fas fa-search"></i>      
+          </a>
+      </div>
+      </div>
+    </div>  
+      <div class="welcome-text">MIX,SERVE AND ENJOY.<br>
+      INSPIRATIONAL HOME BARTENDING.</div>
+    <div class="explore-button"><a class="explore-butn-text" href="#hex">Explore cocktails</a><img src="https://www.shutterstock.com/shutterstock/videos/1068726959/thumb/4.jpg?ip=x480" class="explore-butn-icon"></div>
+    <div class="random-button"><a class="explore-butn-text" href="#random-section">Get a random cocktail</a><img src="https://cdn-icons-png.flaticon.com/512/2619/2619273.png" class="random-butn-icon"></div>  
+  </header>
+  <body>
+        <div class="hex-gallery-title" id="hex"><p>POPULAR COCKTAILS</p></div>
+        <section class="hexagon-gallery" >
+         
+        
+        </section>
+        <div>
+          <h1 class="random-section-title" id="random-section">TRY YOUR LUCK</h1> 
+          <div class="random-section">
+          <div id="cocktail-card-id2" class="scene-random">
+            <div class="card">
+              <div class="cocktail-container cocktail-container--front">
+                <!-- <img src='https://cdn-icons-png.flaticon.com/512/3128/3128313.png' class="favorite-button">  -->
+                <div class="image-container"><img id="random-cocktail-img" class="cocktail-image" src="https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg"></div>
+                <div class="cocktail-text"><h1 id = 'random-recipe-title' class="cocktail-name">Mojito</h1>
+                  <ul class="ingredient-list">
+                    <li>2-3 oz Light Rum</li>
+                    <li>Juice of 1 Lime</li>
+                    <li>2 tsp Sugar</li>
+                    <li>2-4 Mint</li>
+                    <li>Soda Water</li>
+                  </ul>
+                </div>
+                <div class="see-instructions-message">Click to see instructions</div>
+              </div>
+              <div class="cocktail-container cocktail-container--back"> 
+                <div  class="image-container"><img id="random-cocktail-img-back" class="cocktail-image" src="https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg"></div>
+                <div class="cocktail-text"><h1 class="cocktail-name">Instructions</h1>
+                  <p id="random-instr">Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water.
+                    Muddle until dissolved.
+                    Fill the glass with ice cubes and add whiskey.
+                    Garnish with orange twist, and a cocktail cherry.
+                    </p>
+                    <a id ="instr-more" href="#popup1">more...</a>
+                    <h2 class="cocktail-name">Glass</h2>
+                    <p id="random-glass">Old-fashioned glass</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="random-recipe-button" class="random-button2"><p class="">Get a random cocktail</p><img src="https://cdn-icons-png.flaticon.com/512/2619/2619273.png" class="random-butn-icon"></div>
+          <div id="popup1" class="overlay">
+            <div class="popup">
+              <h2>Detailed Instructions</h2>
+              <a class="close" href="#random-section">&times;</a>
+              <div id = "random-detailed-instr" class="content" >
+               Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange twist, and a cocktail cherry.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        <div class="cocktail-collections">
+            <h1>COCKTAIL COLLECTIONS</h1>
+            <div id="collections-container" class="collections-container">
+              <div class="collection" category="Ordinary_Drink"><img src="https://www.thecocktaildb.com/images/media/drink/t5pv461606773026.jpg"><p>Ordinary Drinks</p></div>
+              <div class="collection" category="Shot"><img src="https:\/\/www.thecocktaildb.com\/images\/media\/drink\/uwqpvv1461866378.jpg"><p>Shots</p></div>
+              <div class="collection" category="Alcoholic"><img src="https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg"><p>Alcoholic</p></div>
+              <div class="collection" category="Non_Alcoholic"><img src="https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg"><p>Non-Alcoholic</p></div>
+            </div>
+          </div>
+        <div class="browse-drink"> 
+          <h1>BROWSE DRINKS</h1>
+          <div id="alphabet" class="alphabet">
+            <a class="letter" category="A">A</a>
+            /
+            <a class="letter" category="B">B</a>
+            /
+            <a class="letter" category="C">C</a>
+            /
+            <a class="letter" category="D">D</a>
+            /
+            <a class="letter" category="E">E</a>
+            /
+            <a class="letter" category="F">F</a>
+            /
+            <a class="letter" category="G">G</a>
+            /
+            <a class="letter" category="H">H</a>
+            /
+            <a class="letter" category="I">I</a>
+            /
+            <a class="letter" category="J">J</a>
+            /
+            <a class="letter" category="K">K</a>
+            / 
+            <a class="letter" category="L">L</a>
+            /
+            <a class="letter" category="M">M</a>
+            /
+            <a class="letter" category="N">N</a>
+            /
+            <a class="letter" category="O">O</a>
+            /
+            <a class="letter" category="P">P</a>
+            /
+            <a class="letter" category="Q">Q</a>
+            /
+            <a class="letter" category="R">R</a>
+            /
+            <a class="letter" category="S">S</a>
+            /
+            <a class="letter" category="T">T</a>
+            /
+            <a class="letter" category="U">U</a>
+            /
+            <a class="letter" category="V">V</a>
+            /
+            <a class="letter" category="W">W</a>
+            /
+            <a class="letter" category="X">X</a>
+            /
+            <a class="letter" category="Y">Y</a>
+            /
+            <a class="letter" category="Z">Z</a>  
+          </div>
+        </div>
+      
+
+    <footer id="footer-distributed" class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3><img src="logo.png"></h3>
+
+        
+
+        <p class="footer-company-name">Drink Lab © 2023</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p>Lviv, Ukraine</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+(380)-989-567-876</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About Us</span>
+          Drink Lab is dedicated to good drinking and great living. We inspire, entertain and educate anyone — and everyone — interested in what happens in the glass and out of it. Cocktail recipes; home bar know-how; bottle recommendations; industry intel and job advice for the bar professional.Everyone from a curious drinker seeking a recipe to a top-tier bar professional researching how to reduce their business’ overhead relies on Drink Lab as a valued resource.
+
+        <div class="footer-icons">
+
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/59/59439.png"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png"></a>
+          <a href="#"><img src="https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+
+        </div>
+
+      </div>
+    
+     </footer>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

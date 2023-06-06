@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+    
+  },
+  "scripts":{
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "fix": "eslint **/*.js --fix --ignore-pattern node_modules/"
+  }
+}
